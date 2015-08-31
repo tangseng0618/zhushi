@@ -1,0 +1,147 @@
+body{
+  color: #333;
+  font-family: "Microsoft Yahei","微软雅黑";
+  line-height: 1.8;
+  letter-spacing: .1em;
+}
+img{
+  max-width:100%;
+  height:auto;
+  max-height:100%;
+  width:auto;
+  width: expression(this.width > "100%" & this.height < this.width ? "100%" : true);
+  height: expression(this.height > "100%" ? "100%" : true);
+  border:none;
+}
+h1,h2,h3,h4,h5{
+  color:#219A44;
+  font-weight: normal;
+}
+pre,
+code,
+blockquote {
+  display:block;
+  margin:0;
+  padding:1em;
+  background:#f1f1f1;
+}
+hr {
+  height:0;
+  border-top:#f1f1f1 solid 2px;
+}
+
+h2{
+  color: #219A44;
+}
+h3{
+  color: #219A44;
+}
+td{
+  border: #f1f1f1 solid 1px;
+  padding: 5px;
+}
+a{
+  color:#336699;
+}
+a:hover{
+  background: none;
+  text-decoration: underline;
+  color: #219A44;
+}
+p{
+  margin: 2em 0;
+}
+p.no-indent,
+blockquote p,
+pre p{}
+li{
+  list-style: square; 
+  list-style-position: outside;
+  margin-left: 1em;
+}
+
+/* buttons */
+.btn {
+  border: #219A44 solid 1px;
+  background: none;
+  color: #219A44;
+  margin-right: .5em;
+  padding: .8em 2em;
+  cursor: pointer;
+
+  -moz-opacity: 0.9;
+  opacity:      0.9;
+  filter:alpha(Opacity=90);
+
+  transition: opacity .2s;
+  -moz-transition: -moz-opacity .2s;
+  -webkit-transition: opacity .2s;
+  -o-transition: opacity .2s;
+}
+.btn:hover {
+  background: #219A44;
+  color: #fff;
+
+  -moz-opacity: 1;
+  opacity:      1;
+  filter:alpha(Opacity=100);
+}
+
+.btn-submit {
+  border: #219A44 solid 1px;
+  background: #219A44;
+  color: #fff;
+}
+.btn-danger {
+  border: #EA633D solid 1px;
+  background: #EA633D;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #EA633D;
+  color: #fff;
+}
+.btn-cancel:hover {
+  background: #E9F4E9;
+  color: #219A44;
+}
+/* icons */
+span.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: .1em;
+  margin-bottom: -5px;
+  background-image: url(../images/icons.png);
+  position: left bottom;
+  -moz-opacity: 0.1;
+  opacity:      0.1;
+  filter:alpha(Opacity=10);
+}
+span.icon.tag {
+  background-position: -60px -180px;
+}
+span.icon.author {
+  background-position: -60px 0;
+}
+span.icon.cate {
+  background-position: -60px -30px;
+}
+span.icon.date {
+  background-position: -60px -60px;
+}
+span.icon.comment {
+  background-position: -30px -90px;
+}
+span.icon.view {
+  background-position: -60px -90px;
+}
+span.icon.edit {
+  background-position: -60px -240px;
+}
+span.icon.refresh {
+  background-position: -60px -180px;
+}
+span.icon.reply {
+  background-position: -30px -120px;
+}

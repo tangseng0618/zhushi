@@ -1,0 +1,355 @@
+/*
+ 手机上（竖屏）使用
+ */
+
+/* media query */
+body {
+  background-color: #f1f1f1;
+}
+
+/* top area */
+#top-area{
+  height: auto;
+  border-top: 0;
+  border-bottom: #dedede solid 1px;
+}
+#top-area .container {
+  width: 100%;
+}
+#top-area a:hover{
+  background-color: none;
+}
+
+#top-area #logo,
+#top-area #menu {
+  float: none;
+}
+#top-area #logo {
+  padding: 5px 10px;
+  margin-top: 0;
+  margin-right: 0;
+  min-width: auto;
+  width: auto;
+  text-align: left;
+  height: 40px;
+}
+#top-area #logo img {
+  max-height: 100%;
+  width: auto;
+}
+
+#top-area #menu,
+#user-area,
+#social-btns {
+  display: none;
+}
+
+#top-area #response-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons.png);
+  background-repeat: no-repeat;
+  background-position: -31px -61px;
+  background-color: none;
+  cursor: pointer;
+  border: #999999 solid 1px;
+
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+
+  -moz-opacity: 0.6;
+  opacity:      0.6;
+
+}
+#top-area #response-menu:hover {
+  background-color: #dedee;
+  -moz-opacity: 0.8;
+  opacity:      0.8;
+}
+
+#top-area #menu {
+  display: none;
+  font-size: 1em;
+  margin-top: 0;
+
+  width: 100%;
+  background: #f3f3f3;
+  border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;
+  -moz-box-shadow:    0 2px 2px #f1f1f1;
+  -webkit-box-shadow: 0 2px 2px #f1f1f1;
+  box-shadow:         0 2px 2px #f1f1f1;
+}
+#top-area #menu .menu-item {
+  float: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  position: static;
+  display: block;
+  border-bottom: #333 solid 1px;
+}
+#top-area #menu .menu-item.phone-hidden {
+  display: none;
+}
+#top-area #menu .menu-item.phone-no-border {
+  border: 0;
+}
+#top-area #menu .menu-item a {
+  display: block;
+  padding: .8em;
+  color: #333;
+}
+#top-area #menu .menu-item a:hover {
+  color: #333;
+  background-color: #dedede;
+}
+#top-area #menu .menu-item-has-children {
+  position: static;
+}
+#top-area #menu .menu-item-has-children a {
+  padding-right: 0;
+  padding-left: .8em;
+  background: url(../images/icons.png) no-repeat right -260px;
+}
+#top-area #menu .menu-item-has-children:hover a {
+  color: #333;
+  background-position: right -260px;
+  background-color: #dedede;
+}
+#top-area #menu .sub-menu {
+  display: block;
+  float: none;
+  position: static;
+  width: 100%;
+  padding-top: 0;
+  -moz-box-shadow:    none;
+  -webkit-box-shadow: none;
+  box-shadow:         none;
+}
+#top-area #menu .sub-menu .menu-item {
+  position: static;
+  float: none;
+  display: block;
+  line-height: 1;
+  margin-right: 0;
+  margin-left: 0;
+  border-bottom: 0;
+  border-top: #333 solid 1px;
+}
+#top-area #menu .sub-menu .menu-item a {
+  color: #333;
+  display: block;
+  padding: .8em;
+  padding-left: 2em;
+  font-size: .8em;
+  background: none;
+}
+#top-area #menu .sub-menu .menu-item a:hover {
+  background: #dedede;
+  text-indent: 0;
+}
+
+/* search area */
+#search-area {
+  display: none;
+  position: static;
+  width: 100%;
+  background: none;
+  border-top: #333 solid 1px;
+  border-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: -1px;
+}
+#search-area form {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 0;
+}
+#search-area input {
+  border: 0;
+  color: #333;
+  width: 70%;
+  height: auto;
+  line-height: auto;
+  padding: 5px;
+  float: left;
+}
+#search-area input:focus {
+  width: 70%;
+}
+#search-area button {
+  background-image: url(../images/icons.png);
+  background-position: -30px -30px;
+  margin-top: .5em;
+}
+
+
+
+
+/* main */
+#main{
+  width: 100%;
+  margin-top: 0;
+  position: static;
+}
+#content-box {
+  margin-left: 0;
+}
+#content{
+  padding-left: 0;
+}
+#sidebar {
+  display: none;
+}
+
+#slider {
+  margin-bottom: 0;
+}
+
+#post-list {
+  margin-top: 20px;
+}
+.post{
+  padding: 0;
+  margin: 15px 10px;
+  background-color: #fff;
+  border: #f1f1f1 solid 1px;
+  -moz-box-shadow:    0 2px 2px #ddd;
+  -webkit-box-shadow: 0 2px 2px #ddd;
+  box-shadow:         0 2px 2px #ddd;
+}
+.post .post-thumb{
+  float: none;
+  max-width: 100%;
+  min-height:161px;
+  margin-right: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: auto;
+  text-align: center;
+}
+.post .post-thumb img {
+  display: block;
+  margin: 0 auto;
+}
+.post h2{
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 60px;
+}
+.post .post-info {
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-top: -2.8em;
+  margin-right: 10px;
+  width: 60px;
+}
+.post .post-info span.post-meta,
+.post .post-excerpt {
+  display: none;
+}
+.post .post-info span.post-comment {
+  display: inline;
+}
+.post .post-opt {
+  margin: 0 10px;
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+.post .post-opt .add-like,
+.post .post-opt .del-like,
+.post .post-opt .add-collect,
+.post .post-opt .del-collect {
+  display: none;
+}
+
+/* 一些挂件 */
+.place {
+  margin: 10px;
+  color: #ccc;
+  font-size: .8em;
+}
+.place a {
+  color: #ccc;
+}
+.archive-info {
+  margin: 10px;
+}
+.category-description {
+  color: #ccc;
+}
+.pagenav {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* footer */
+#footer{
+  padding: 30px 0;
+}
+#footer .container {
+  width: auto;
+  margin: 0 10px;
+}
+#footer .widget-box {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+  margin: 30px 0;
+}
+#footer .widget-box.author-avatar-list {
+  width: 100%;
+}
+#footer .widget.widget_links {
+  display: none;
+}
+
+/* article */
+#article.post {
+  border: 0;
+  background: none;
+
+  -moz-box-shadow:    none;
+  -webkit-box-shadow: none;
+  box-shadow:         none;
+}
+#article h1.article-title{
+  font-size: 1.4em;
+  margin-top: 0;
+}
+#article .article-info {
+  display: block;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 5px;
+  margin-top: 0;
+}
+#article .article-content{
+  letter-spacing: 0;
+}
+#respond #comment-author-info {
+  width: 90%;
+}
+#respond #comment-author-info p label {
+  background: #f1f1f1;
+}
+#respond #comment-author-info input {
+  min-width: 60%;
+  background: none;
+}
+
+/* 其他细节 */
+.bdshare-slide-button-box {
+  display: none !important;
+}

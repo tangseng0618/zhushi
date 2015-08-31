@@ -1,0 +1,65 @@
+/* media query */
+
+/* top area */
+#top-area{
+  border-bottom: #D6EAED solid 1px;
+}
+#top-area a:hover{
+  color: #EDF2F5;
+}
+
+#top-area #response-menu {
+  background-image: url(../../images/icons-blue.png);
+}
+#top-area #response-menu:hover {
+  background-color: #D6EAED;
+}
+
+#top-area #menu {
+  background: #EDF2F5;
+  border-top-color: #0391D8;
+  border-bottom-color: #0391D8;
+}
+#top-area #menu .menu-item {
+  border-bottom-color: #0391D8;
+}
+#top-area #menu .menu-item a {
+  color: #0391D8;
+}
+#top-area #menu .menu-item a:hover {
+  color: #0391D8;
+  background-color: #D6EAED;
+}
+#top-area #menu .menu-item-has-children a {
+  background-image: url(../../images/icons-blue.png);
+}
+#top-area #menu .menu-item-has-children:hover a {
+  color: #0391D8;
+  background-color: #D6EAED;
+}
+#top-area #menu .sub-menu .menu-item {
+  border-top-color: #0391D8;
+}
+#top-area #menu .sub-menu .menu-item a {
+  color: #0391D8;
+  background: #EDF2F5;
+}
+#top-area #menu .sub-menu .menu-item a:hover {
+  background: #D6EAED;
+}
+
+/* search area */
+#search-area {
+  border-top-color: #0391D8;
+}
+#search-area input {
+  color: #0391D8;
+}
+#search-area button {
+  background-image: url(../../images/icons-blue.png);
+}
+/* main */
+/* 一些挂件 */
+/* footer */
+/* article */
+/* 其他细节 */

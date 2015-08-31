@@ -1,0 +1,119 @@
+/*
+ 在平板电脑（竖屏）上使用
+ */
+
+/* top area */
+#top-area .container {
+  width: 95%;
+}
+#top-area #logo {
+  min-width: 0;
+  margin-top: 30px;
+  max-width: 150px;
+}
+#top-area #menu {
+  font-size: 1em;
+}
+#top-area #menu .menu-item {
+  margin-right: .5em;
+}
+#top-area #menu .menu-item-has-children a {
+  background-position: right -273px;
+}
+#top-area #menu .menu-item-has-children:hover a {
+  background-position: right -365px;
+}
+#search-area input {
+  width: 120px;
+}
+#social-btns {
+  display: none;
+}
+
+/* main */
+#main{
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#content-box {
+  margin-left: -270px;
+}
+#content{
+  padding-left: 270px;
+}
+body.single #content-box,
+body.page #content-box {
+  margin-left: 0;
+}
+body.single #content,
+body.page #content {
+  padding-left: 0;
+}
+body.single #sidebar,
+body.page #sidebar {
+  display: none;
+}
+
+/* sideabr */
+#sidebar {
+  width: 250px;
+  overflow: hidden;
+}
+#sidebar ul.posts-with-image-list li .thumb {
+  width: 80px;
+  height: 50px;
+  margin-right:5px;
+}
+#sidebar ul.posts-with-image-list li .title {
+  width: 165px;
+}
+#sidebar ul.posts-with-image-list li .excerpt {
+  height: 30px;
+}
+
+
+/* content */
+.post .post-thumb{
+  float: none;
+  max-width: 100%;
+  margin-right: 0;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  max-height:200px;
+  width: auto;
+  text-align: center;
+}
+.post .post-thumb img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* footer */
+#footer .container {
+  width: 95%;
+  margin: 0 10px;
+}
+#footer .widget-box {
+  width: 45%;
+  margin-right: 5%;
+}
+#footer .widget-box.author-avatar-list {
+  width: 50%;
+  margin-right: 0;
+}
+#footer .widget.widget_links {
+  display: none;
+}
+
+/* comment */
+#respond #comment-author-info {
+  width: 80%;
+}
+#respond #comment-author-info p label {
+  background: #fff;
+}
+#respond #comment-author-info input {
+  min-width: 60%;
+  background: none;
+}

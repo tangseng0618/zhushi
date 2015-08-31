@@ -1,0 +1,247 @@
+/**
+ * 全局基调：蓝色（浅#EDF2F5 中#D6EAED 深#0391D8）
+ */
+
+::-moz-selection,
+::selection{
+  background: #0391D8;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* buttons */
+.btn {
+  border-color: #0391D8;
+  color: #0391D8;
+}
+.btn:hover {
+  border-color: #0391D8;
+  color: #0391D8;
+  background: #EDF2F5;
+}
+.btn-submit {
+  border: #0391D8 solid 1px;
+  background: #0391D8;
+  color: #fff;
+}
+.btn-submit:hover {
+  background: #0391D8;
+  color: #fff;
+}
+
+
+/* dialog */
+.dialog-content {
+  border: #D6EAED solid 10px;
+}
+
+/* icons */
+span.icon {
+  background-image: url(../../images/icons-blue.png);
+}
+
+/**
+* header / top area
+*/
+
+#top-area{
+  border-top: #0391D8 solid 4px;
+  background: #EDF2F5;
+}
+#top-area,#top-area a{
+  color: #0391D8;
+}
+#top-area a:hover{
+  color: #fff;
+  background-color: #0391D8;
+}
+#top-area #menu .menu-item-has-children a {
+  background-image: url(../../images/icons-blue.png);
+}
+#top-area #menu .menu-item-has-children:hover a {
+  background-color: #0391D8;
+}
+#top-area #menu .sub-menu {
+  background-color: #EDF2F5;
+  -moz-box-shadow:    0 2px 2px #EDF2F5;
+  -webkit-box-shadow: 0 2px 2px #EDF2F5;
+  box-shadow:         0 2px 2px #EDF2F5;
+}
+#top-area #menu .sub-menu .menu-item a {
+  background-color: #EDF2F5;
+  color: #0391D8;
+}
+#top-area #menu .sub-menu .menu-item a:hover {
+  background-color: #D6EAED;
+}
+
+#user-area {
+  background-color: #0391D8;
+}
+#user-area a {
+  color: #fff;
+}
+#user-area .current-user-area {
+  background-color: #0391D8;
+}
+#user-area .current-user-area .user-name {
+  background-image: url(../../images/icons-blue.png);
+}
+#user-area .current-user-area a:hover {
+  background: #D6EAED;
+  color: #0391D8;
+}
+
+#search-area {
+  background: #0391D8;
+}
+#search-area form {
+  border-bottom: #D6EAED solid 1px;
+}
+#search-area input {
+  color: #D6EAED;
+}
+#search-area button {
+  background-image: url(../../images/icons-blue.png);
+}
+
+#social-btns a:hover {
+  background-color: #EDF2F5;
+}
+
+/**
+* main container
+*/
+
+
+/* slider */
+
+
+/* post */
+.post h2 a{
+  color:#0391D8;
+}
+.post h2 a:hover{
+  background:#0391D8;
+}
+.post h3{
+  color:#0391D8;
+}
+.post .post-info {
+  color: #ccc;
+}
+.post .post-info a {
+  color: #ccc;
+}
+.post .post-info a:hover {
+  color: #0391D8;
+}
+.post .post-excerpt a {
+  color: #0391D8;
+}
+.post .post-opt a {
+  color: #0391D8;
+}
+.post .post-opt a:hover {
+  background: #0391D8;
+}
+
+/*
+ * sidebar
+ */
+#sidebar .widget-title {
+  background: #EDF2F5;
+}
+#sidebar .widget-title h3 {
+  border-bottom-color: #0391D8;
+  color: #0391D8;
+}
+#sidebar ul.posts-with-image-list li a:hover {
+  color: #0391D8;
+}
+#sidebar ul.posts-with-image-list li .excerpt {
+  color: #D9D9D9;
+}
+#sidebar .widget_tag_cloud a {
+  color: #555;
+}
+#sidebar .widget_tag_cloud a:hover {
+  color: #0391D8;
+}
+
+
+/**
+* footer
+*/
+#footer{
+  background: #0391D8;
+}
+#copyright {
+  border-top-color: #D6EAED;
+}
+
+
+/**
+* place
+*/
+.place{}
+
+
+/*
+ * archive
+ */
+
+/**
+* article
+*/
+
+#article h1.article-title{
+  color: #0391D8;
+}
+#article .article-content h2{
+  color: #0391D8;
+}
+#article .article-content h3{
+  color: #0391D8;
+}
+#article .article-content a{
+  color: #0391D8;
+}
+.article-author-description a {
+  color: #0391D8;
+}
+
+/* page */
+
+/**
+* pagenav
+*/
+.pagenav a,
+.pagenav span{
+  border: #999 solid 1px;
+  color: #999;
+}
+.pagenav a:hover{
+  background:#0391D8;
+  border-color:#0391D8;
+  color: #fff;
+}
+
+/**
+* comments
+*/
+
+#comments-title{
+  color:#0391D8;
+}
+#comments-lists .approve{
+  color:#0391D8;
+}
+
+
+#respond p a {
+  color: #0391D8;
+}
+
+
+/** plugins **/
