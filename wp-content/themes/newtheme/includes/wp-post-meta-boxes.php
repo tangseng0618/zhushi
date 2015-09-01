@@ -24,7 +24,7 @@ function add_post_metas_box($post){
 	foreach($metas as $type => $meta) {
 	  $meta_value = get_post_meta($post->ID,$meta,true);
 	  if($type == 'text') {echo '<p><label>'.$meta.'：'.'<input type="text" class="regular-text" style="max-width:80%;" name="post_metas['.$meta.']" value="'.$meta_value.'"></label></p>';}
-    elseif($type == 'checkbox') {echo '<p><label><input type="checkbox" name="post_metas['.$meta.']" value="1" '.checked($meta_value,1,false).'> '.$meta.'</label></p>';}
+    elseif($type == 'checkbox') {echo '<p><label><input type="hidden" name="post_metas['.$meta.']" value="0"><input type="checkbox" name="post_metas['.$meta.']" value="1" '.checked($meta_value,1,false).'> '.$meta.'</label></p>';}
 	}
 	// 循环使用上面的代码，修改$meta_key就可以了
 }
