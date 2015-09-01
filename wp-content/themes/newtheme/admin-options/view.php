@@ -1,16 +1,3 @@
-<div class="admin-options-header">
-  <h1>Magix Tech主题设置 <small>/ by <a href="http://weibo.com/hz184">@否子戈</a> 使用中有问题或想法点击<a href="http://www.utubon.com/?p=3183" target="_blank">这里</a>。</small></h1>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-0625745788201806" data-ad-slot="6288479450"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-0625745788201806" data-ad-slot="6288479450"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-0625745788201806" data-ad-slot="6288479450"></ins>
-  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  <small style="color:#ccc">去除广告请购买付费版</small>
-</div>
 <div class="wrapper">
   <div class="admin-options">
     <div class="admin-options-menu">

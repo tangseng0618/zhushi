@@ -20,10 +20,7 @@ function add_post_metas_box_init(){
 	);
 }
 function add_post_metas_box($post){
-	echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle" style="display:inline-block;width:200px;height:200px" data-ad-client="ca-pub-0625745788201806" data-ad-slot="3579010425"></ins>
-        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script><small style="color:#ccc;float:right;">付费版主题去广告</small>';
-  $metas = add_post_metas_box_arr();
+	$metas = add_post_metas_box_arr();
 	foreach($metas as $type => $meta) {
 	  $meta_value = get_post_meta($post->ID,$meta,true);
 	  if($type == 'text') {echo '<p><label>'.$meta.'：'.'<input type="text" class="regular-text" style="max-width:80%;" name="post_metas['.$meta.']" value="'.$meta_value.'"></label></p>';}
