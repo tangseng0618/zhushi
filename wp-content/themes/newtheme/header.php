@@ -7,11 +7,7 @@ global $admin_options;$style = $admin_options['style'] ? $admin_options['style']
 <meta charset="<?php bloginfo('charset'); ?>" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<?php if (is_home()): ?>
-<title><?php bloginfo('name'); ?></title>
-<?php else: ?>
-<title><?php wp_title('–', true, 'right'); ?><?php bloginfo('name'); ?></title>
-<?php endif; ?>
+<title><?php wp_title('',true); ?></title>
 <script>
 var _options_ = {
   'site_url' : '<?php echo site_url(); ?>',
