@@ -1,6 +1,7 @@
 <?php global $author;$userdata = get_userdata($author);get_header(); ?>
 <div role="main" id="main">
   <div id="content">
+  <div id="content">
     <div class="place"><?php the_place('首页'); ?></div>
     <div class="article-author archive-info">
       <?php echo get_avatar($author,'60'); ?>
@@ -22,6 +23,7 @@
     <?php else : ?>
     <h3>该用户还没有发布文章！</h3>
     <?php endif; ?>
+  </div>
   </div>
   <aside role="sidebar">
     <?php get_sidebar(); ?>

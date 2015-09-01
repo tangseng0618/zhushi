@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div role="main" id="main">
+  <div id="content-box">
   <div id="content">
     <div class="place"><?php the_place('首页'); ?></div>
     <?php if(have_posts())the_post(); ?>
@@ -48,6 +49,7 @@
       ?>
     </div>
     <?php get_template_part('templates/tpl-pagenavi'); ?>
+  </div>
   </div>
   <aside role="sidebar">
     <?php get_sidebar(); ?>

@@ -1,5 +1,6 @@
 <?php global $admin_options;get_header(); ?>
 <div id="main">
+  <div id="content-box">
   <div id="content">
     <div class="place"><?php the_place('首页'); ?></div>
     <article role="article" id="post-<?php the_ID(); ?>">
@@ -42,6 +43,7 @@
       <div id="comments"><?php comments_template('',true); ?></div>
     </div>
     </article>
+  </div>
   </div>
   <aside role="sidebar">
     <?php get_sidebar(); ?>
