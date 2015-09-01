@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div role="main" id="main">
+  <div id="content-box">
   <div id="content">
     <?php get_template_part('templates/tpl-slider'); ?>
     <div id="post-list">
@@ -18,6 +19,7 @@
       ?>
     </div>
     <?php get_template_part('templates/tpl-pagenavi'); ?>
+  </div>
   </div>
   <aside role="sidebar">
     <?php get_sidebar(); ?>

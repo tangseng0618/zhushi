@@ -11,6 +11,7 @@ elseif($post->ID == $admin_options['page_for_usercenter'] && $admin_options['mod
 
 get_header(); ?>
 <div id="main">
+  <div id="content-box">
   <div id="content">
     <div class="place"><?php the_place('首页'); ?> <?php edit_post_link('<span class="icon edit"></span>编辑'); ?></div>
     <article role="article" id="post-<?php the_ID(); ?>">
@@ -24,6 +25,7 @@ get_header(); ?>
       <div id="comments"><?php comments_template('',true); ?></div>
     </div>
     </article>
+  </div>
   </div>
   <aside role="sidebar">
     <?php get_sidebar(); ?>
