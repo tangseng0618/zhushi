@@ -1,3 +1,9 @@
+Options +FollowSymlinks
+Options -Indexes
+<FilesMatch "(?i)((\.tpl|\.ini|\.log|(?<!robots)\.txt))">
+ Order deny,allow
+ Deny from all
+</FilesMatch>
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
